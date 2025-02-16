@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&display=swap');
+
+@import "tailwindcss";
+
+*{
+    font-family: Roboto-Mono;
+}
+.sect{
+    background-color: #f7ece1;
+}
+select,input,textarea{
+    border : 1px solid #c2c2c2;
+    outline-color: #f7e3ed;
+    border-radius: 4px;
+
+}
+.active{
+    background-color: #f7e3ed;
+    border-color: #C586A5;
+}
+.grechen-fuemen-regular {
+    font-family: "Grechen Fuemen", serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #300058;
+  }
